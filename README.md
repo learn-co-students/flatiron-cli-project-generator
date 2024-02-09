@@ -1,6 +1,6 @@
-# Simple Flask Project Generator for Flatiron School
+# Simple CLI Project Generator for Flatiron School
 
-This script is for generating a barebone phase 4 project that's already configured for Flask with a React frontend.
+This script is for generating a barebone phase 3 project that's already configured for Flask-SQLAlchemy. It is based of of this [phase 4 Flask project generator](https://github.com/Enoch2k2/flatiron-flask-project-generator) by instructor Enoch Griffith.
 
 ### The project generator will:
 * Create your pipenv virtual environment
