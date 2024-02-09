@@ -7,7 +7,6 @@ This script is for generating a barebone phase 4 project that's already configur
 * Create and configure a barebone flask application
 * Install all needed packages for your flask application
 * Initializes your sqlalchemy database, so no need to flask db init or create your base revision
-* 
 * Create a README
 * Make your initial commit for you
  
@@ -27,11 +26,7 @@ This script is for generating a barebone phase 4 project that's already configur
 ```
 * Grab some popcorn
 
-### Note while the project is being created
+### What to do now that it's done running?
 
-There may be points during project generation that you get prompted to input either a yes or no into the terminal. Or to install something (like vite). Follow the prompts closely (basically say yes to everything and it should be fine!). You will only need to do the prompts once.
-
-### What now that it's done running?
-
-You're Flask project is ready to go! Create models / seeds / etc... You will not have to worry about initializing your database with flask db init, flask db revision -m 'initial db', flask db upgrade head. That is already done for you! You will however need to use `pipenv shell` in order to go into your virtual environment. 
+You're Flask CLI project is ready to go! Create models / seeds / etc... You will not have to worry about initializing your database with flask db init, flask db revision -m 'initial db', flask db upgrade head. That is already done for you! You will however need to: `cd server`, use `pipenv shell` in order to go into your virtual environment, run `python app.py` to run your cli application. 
 
