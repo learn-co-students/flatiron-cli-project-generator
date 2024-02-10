@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# argumentvariables
-# secret_key=`hexdump -vn16 -e'4/4 "%08X" 1 "\n"' /dev/urandom`
-
 # setup virtual environment and add dependencies
 pipenv install --python 3.8.13
 
 # install python packages
-pipenv install flask flask-sqlalchemy flask-restful flask-migrate python-dotenv ipdb
+pipenv install flask flask-sqlalchemy flask-migrate python-dotenv ipdb
 
 # filestructures
 mkdir server
@@ -83,7 +80,6 @@ echo "  ipdb.set_trace(sys._getframe())" >> server/debug.py
 echo ".env" >> .gitignore
 
 # configuring .env
-# echo "FLASK_SECRET_KEY=$secret_key" >> .env
 echo "DATABASE_URI=sqlite:///app.db" >> .env
 
 # initializing database
