@@ -78,6 +78,7 @@ echo "  ipdb.set_trace(sys._getframe())" >> server/debug.py
 
 # configuring .gitignore
 echo ".env" >> .gitignore
+echo "./*/instance/*.db" >> .gitignore
 
 # configuring .env
 echo "DATABASE_URI=sqlite:///app.db" >> .env
