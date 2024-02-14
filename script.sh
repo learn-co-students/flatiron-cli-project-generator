@@ -82,6 +82,7 @@ echo "./*/instance/*.db" >> .gitignore
 
 # configuring .env
 echo "DATABASE_URI=sqlite:///app.db" >> .env
+echo "FLASK_APP=app.py" >> .env
 
 # initializing database
 cd server
